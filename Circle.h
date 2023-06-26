@@ -10,7 +10,7 @@ public:
 	Circle(PictureBox^ picturebox, TextBox^ SizeWidth, TextBox^ SizeHeight) : Figure_new::Figure_new(picturebox, SizeWidth, SizeHeight) {
 
 	}
-
+	// Комментарий
 	void create_figure(Pen^ pen, SolidBrush^ brush, bool fill_ch) override {
 		if (fill_ch) {
 			Figure_new::g->FillEllipse(brush, Figure_new::x_nach, Figure_new::y_nach, Figure_new::x, Figure_new::y);
